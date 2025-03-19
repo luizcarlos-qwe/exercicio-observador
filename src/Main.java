@@ -7,6 +7,6 @@ public class Main {
         Estoque estoque = new Estoque("Camiseta", valorInicial);
 
         estoque.attach(gerente);
-        estoque.setValor(valorInicial); // Notifica o gerente
+        estoque.setValor(valorInicial);
     }
 }
